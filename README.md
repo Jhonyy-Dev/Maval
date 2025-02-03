@@ -31,7 +31,7 @@ Optimizado para móviles, tablets y desktop
 
 ```bash
 # 1. Clonar repositorio
-git clone https://github.com/tuusuario/portafolio-front.git
+git clone https://github.com/Jhonyy-Dev/Maval.git
 cd portafolio-front
 
 # 2. Instalar dependencias
