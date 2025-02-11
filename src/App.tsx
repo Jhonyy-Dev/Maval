@@ -5,6 +5,7 @@ import Razones from "./paginas/componentePagina/trabajaNosotros";
 import Testimonios from "./paginas/componentePagina/testimonios";
 import Footer from "./paginas/componentePagina/footer";
 import Servicios from "./paginas/componentePagina/servicios";
+import MapSection from "./paginas/componentePagina/MapSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Razones />
       <Servicios />
       <Testimonios />
+      <MapSection />
       <div className="">
         <Footer />
       </div>

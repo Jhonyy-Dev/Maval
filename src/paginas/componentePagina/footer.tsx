@@ -4,7 +4,7 @@ const sections = [
   {
     title: "Services",
     links: [
-      { name: "Web Development", href: "#" },
+      { name: "Web Development", href: "#" }, { name: "Software Development", href: "#" }, { name: "Chatbot Development", href: "#" }, { name: "Mobile App Development", href: "#" }, { name: "UI/UX Design", href: "#" }, { name: "Digital Marketing", href: "#" }, { name: "E-Commerce", href: "#" }, { name: "Data Analysis", href: "#" }, { name: "SEO", href: "#" }
     ],
   },
   {
@@ -37,12 +37,17 @@ const Footer2 = () => {
           {/* Logo & Description */}
           <div>
             <div className="flex items-center gap-3">
-              <img
-                src="https://via.placeholder.com/40"
-                alt="Maval Logo"
-                className="h-10"
-              />
-              <p className="text-xl font-semibold text-gray-800">Maval</p>
+              <div className="relative">
+                <img
+                  src="./src/assets/images/logo.webp"
+                  alt="Maval Logo"
+                  className="h-16 opacity-75 mix-blend-multiply"
+                  style={{
+                    mask: 'radial-gradient(circle at center, black 30%, transparent 70%)',
+                    WebkitMask: 'radial-gradient(circle at center, black 30%, transparent 70%)'
+                  }}
+                />
+              </div>
             </div>
             <p className="mt-4 text-sm text-gray-600">
               Transforming ideas into powerful digital solutions.

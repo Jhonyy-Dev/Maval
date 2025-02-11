@@ -33,8 +33,8 @@ function Testimonios() {
   return (
     <section className="py-16  overflow-hidden">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold text-[#564FCC]">
-          What Our Clients Say
+        <h2 className="lg:text-4xl text-3xl font-mono text-[#000000]">
+          <span className="underline-decoration">What Our Clients Say</span>
         </h2>
         <p className="text-lg text-gray-600 mt-2">
           Businesses and entrepreneurs trust us.

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://maval.tech/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
